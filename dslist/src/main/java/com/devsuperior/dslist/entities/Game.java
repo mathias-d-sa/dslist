@@ -1,4 +1,4 @@
-package com.devsuperior.dslist.entities;
+	package com.devsuperior.dslist.entities;
 
 import java.util.Objects;
 
@@ -14,7 +14,7 @@ import jakarta.persistence.Table;
 public class Game {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY) 
 	private Long id;
 	private String title;
 	
